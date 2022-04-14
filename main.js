@@ -1,6 +1,6 @@
 module.exports.requestActions = [
   {
-    label: "Send request",
+    label: "Request Runner",
     action: async (context, data) => {
       const { request } = data;
       const response = await context.network.sendRequest(request);
